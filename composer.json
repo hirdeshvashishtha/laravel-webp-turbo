@@ -1,0 +1,32 @@
+{
+    "name": "hirdeshvashishtha/laravel-webp-turbo",
+    "description": "Zero-config WebP/AVIF image conversion, responsive srcset generator, and Core Web Vitals lazy-loading Blade directive for Laravel websites.",
+    "keywords": ["laravel", "webp", "avif", "image-optimization", "core-web-vitals", "seo", "lazy-loading", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hirdesh Kumar Vashishtha",
+            "email": "hirdeshv48@gmail.com",
+            "role": "Senior IT Manager & Enterprise Architect"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/http": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HirdeshVashishtha\\WebpTurbo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HirdeshVashishtha\\WebpTurbo\\WebpTurboServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
